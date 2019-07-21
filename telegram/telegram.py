@@ -13,7 +13,7 @@ from odoo import api, models, fields
 from odoo.addons.auth_signup.models.res_partner import random_token
 from odoo.tools.safe_eval import safe_eval
 from odoo.tools.translate import _
-from odoo.addons.base.ir.ir_qweb.qweb import QWeb
+from odoo.addons.base.models.qweb import QWeb
 import odoo
 
 from openerp.tools.translate import xml_translate
